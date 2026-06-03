@@ -15,7 +15,7 @@ export default function Navbar() {
                 {/* Center Logo */}
                 <div className="logo">
                     <Link to="/">
-                        PLUUGIN
+                        BAOLI
                     </Link>
                 </div>
 
