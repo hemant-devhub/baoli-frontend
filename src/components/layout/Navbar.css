@@ -1,0 +1,60 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #ffffff;
+    border-bottom: 1px solid #ece7e2;
+}
+
+.navbar-container {
+    max-width: 1400px;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    color: #222;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.nav-left a,
+.nav-right a {
+    text-decoration: none;
+    color: #222;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+}
+
+.nav-left a:hover,
+.nav-right a:hover {
+    color: #c8a27c;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cart-count {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #c8a27c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
