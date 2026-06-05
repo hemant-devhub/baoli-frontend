@@ -3,17 +3,17 @@ import "./FeaturedCollections.css";
 const collections = [
     {
         title: "Tote Bags",
-        image: "https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/guess-com/BG967224CLO/0/oQQCpdmLOH-BG967224CLO_1.jpg",
+        image: "https://www.hocheparis.in/cdn/shop/files/2nd_image_lifestyle_11.jpg?v=1733125219",
     },
 
     {
         title: "Shoulder Bags",
-        image: "https://images.unsplash.com/photo-1591561954557-26941169b49e",
+        image: "https://cdn.mos.cms.futurecdn.net/25PGLdjfLjKMcRZtviPksZ.jpg",
     },
 
     {
         title: "Evening Bags",
-        image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
+        image: "https://www.urbanspacestore.in/cdn/shop/files/01_0168e46d-e2cc-46ce-9721-8ea696abfc6b.webp?v=1764142463&width=1500",
     },
 ];
 
