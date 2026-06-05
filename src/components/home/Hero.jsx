@@ -14,7 +14,7 @@ export default function Hero() {
                     transition={{ duration: 1 }}
                     className="hero-subtitle"
                 >
-                    Luxury Lakanto
+                    Luxury Bags
                 </motion.span>
 
                 <motion.h1
