@@ -1,7 +1,7 @@
 .brand-story {
   max-width: 1400px;
-  margin: 150px auto;
-  padding: 0 60px;
+  margin: auto;
+  padding: 60px;
 
   display: grid;
   grid-template-columns: 1.1fr 1fr;
@@ -9,19 +9,25 @@
   align-items: center;
 }
 
+.brand-image {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
 .brand-image img {
   width: 100%;
   height: 750px;
   object-fit: cover;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  transition: transform 0.8s ease;
+}
+
+.brand-image:hover img {
+    transform: scale(1.05);
 }
 
 .brand-content span {
-  color: #c8a27c;
+  color: #a97848;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 13px;
@@ -45,31 +51,57 @@
 .brand-content button {
   margin-top: 20px;
   background: transparent;
-  border: 1px solid #c8a27c;
+  border: 1px solid #a97848;
   padding: 14px 40px;
   cursor: pointer;
   transition: 0.3s ease;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .brand-content button:hover {
-  background: #c8a27c;
+  background: #a97848;
   color: white;
 }
 
-@media(max-width:992px){
-
-.brand-story{
-  grid-template-columns:1fr;
-  padding:0 25px;
+@media (min-width: 993px) {
+  .brand-image:hover img {
+    transform: scale(1.05);
+  }
 }
 
-.brand-image img{
-  height:500px;
-  border-radius: 6px;
-}
+@media (max-width: 992px) {
 
-.brand-content h2{
-  font-size:3rem;
-}
+  .brand-story {
+    grid-template-columns: 1fr;
+    padding: 0 25px;
+    margin: 60px auto;
+  }
 
+  .brand-image {
+    border-radius: 6px;
+  }
+
+  .brand-image img {
+    height: 450px;
+    border-radius: 6px;
+    transform: none;
+  }
+
+  .brand-image img {
+        height: 450px;
+        border-radius: 6px;
+  }
+
+  .brand-content {
+    text-align: center;
+  }
+
+  .brand-content h2 {
+    font-size: 3rem;
+    margin: 15px 0 25px;
+  }
 }

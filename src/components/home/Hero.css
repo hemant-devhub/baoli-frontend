@@ -14,7 +14,7 @@
 
 .hero-subtitle {
   display: block;
-  color: #c8a27c;
+  color: #a97848;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 20px;
@@ -41,13 +41,18 @@
   display: inline-block;
   padding: 14px 40px;
   text-decoration: none;
-  border: 1px solid #c8a27c;
+  border: 1px solid #a97848;
   color: #222;
   transition: all 0.3s ease;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .hero-btn:hover {
-  background: #c8a27c;
+  background: #a97848;
   color: white;
 }
 
@@ -74,8 +79,17 @@
   padding:30px;
 }
 
-.hero h1{
+.hero-content {
+  text-align: center;
+}
+
+.hero h1 {
   font-size:3rem;
+  margin-bottom: 20px;  
+}
+
+.hero p {
+  margin-bottom: 20px;
 }
 
 .hero-image img{
