@@ -1,0 +1,54 @@
+.mobile-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+  z-index: 999;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mobile-menu-content {
+  padding: 130px 40px 40px;
+}
+
+.mobile-menu-content a {
+  display: block;
+  text-decoration: none;
+  color: #222;
+  font-size: 2rem;
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 30px;
+}
+
+.mobile-menu-content a:hover {
+  color: #c8a27c;
+}
+
+.mobile-cta {
+  margin-top: 40px;
+  padding: 14px 25px;
+  border: 1px solid #c8a27c;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.mobile-footer {
+  border-top: 1px solid #ece7e2;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+}

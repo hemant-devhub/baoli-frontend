@@ -1,0 +1,23 @@
+.signature-products{
+  max-width:1400px;
+  margin: auto;
+  padding: 60px;
+}
+
+.products-grid{
+  display:grid;
+  grid-template-columns:  repeat(3,1fr);
+  gap:40px;
+}
+
+@media(max-width:992px){
+
+.products-grid{
+  grid-template-columns:1fr;
+}
+
+.signature-products{
+  padding:0 25px;
+}
+
+}
