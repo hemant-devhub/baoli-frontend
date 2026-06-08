@@ -18,7 +18,7 @@
 }
 
 .mobile-menu-content {
-  padding: 130px 40px 40px;
+  padding: 130px 25px 40px;
 }
 
 .mobile-menu-content a {
@@ -43,11 +43,16 @@
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .mobile-footer {
   border-top: 1px solid #ece7e2;
-  padding: 30px 40px;
+  padding: 30px 25px;
   display: flex;
   justify-content: space-between;
   color: #777;

@@ -36,7 +36,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-bottom">
-                    @ 2026 Baoli Bags
+                    @ 2026 Baoli Bags. All Rights Reserved.
                 </div>
             </div>
         </footer>
