@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import MobileMenu from "./MobileMenu";
+import { useCart } from "../../context/useCart";
 import "./Navbar.css";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
+    const { totalItems } = useCart();
 
     useEffect(() => {
         if (open) {
@@ -44,7 +46,9 @@ export default function Navbar() {
 
                         <Link to="/cart" className="cart-link">
                             Cart
-                            <span className="cart-count">0</span>
+                            <span className="cart-count">
+                                {totalItems}
+                            </span>
                         </Link>
                     </nav>
 

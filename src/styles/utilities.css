@@ -1,0 +1,15 @@
+.section {
+  padding:var(--section-spacing) 0;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.flex {
+  display:flex;
+}
+
+.grid {
+  display:grid;
+}
